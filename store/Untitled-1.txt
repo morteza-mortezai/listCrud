@@ -1,0 +1,23 @@
+https://taxapi.cpay.ir/api/app/create
+{"name","title","url","isGeneral","secretKey","description"}
+------
+
+https://taxapi.cpay.ir/api/app/getall
+{"pageNum":0,"count":10}
+
+----------
+
+https://taxapi.cpay.ir/api/app/update
+{"name","title","url","isGeneral","secretKey","description","appId"}
+
+----------
+
+ https://taxapi.cpay.ir/api/app/status/change
+ {appId}
+ 
+--------
+ https://taxapi.cpay.ir/api/app/delete
+  {appId}
+  
+      let sc="Bearer
+       eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlMzk3ODYzMmU1YWI0MThmZDc3OGEwMSIsInVzZXJuYW1lIjoiYmFiYWsiLCJ0eXBlIjoidGF4IiwiYXBwIjp7ImFwcElkIjoiNWUyNDRhNDhkMjZhYmJmZmVjMGFjZDdkIiwiYXBwTmFtZSI6IkNwYXkgVGF4Iiwib3JnIjp7Im9yZ0lkIjoiNWUzNTJmYjBiNzU3MjBiYjg4MzEyMmFlIiwicm9sZXMiOlt7InJvbGVJZCI6IjVlOTE1NzY4ZjhlODIzMDAxOGZjOTIxYSIsInJvbGVOYW1lIjoiQWRtaW4iLCJfaWQiOiI1ZTQwMDdhMzJhMWNlNDFlYjUzZWE3ZjcifV19fSwiaWF0IjoxNjA5NTk5MTU3LCJleHAiOjE2MDk2ODU1NTd9.UVLUSohWxDlN99EkW_JiJfaepILzSE25eyYXns9Zkb
